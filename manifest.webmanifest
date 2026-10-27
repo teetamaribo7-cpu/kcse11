@@ -1,0 +1,15 @@
+{
+  "name": "KCSE Year 11",
+  "short_name": "KCSE Y11",
+  "description": "Notes, quizzes and KCSE past papers for Year 11 students in Kiribati. Created by teetamaribo7.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0A1C5C",
+  "theme_color": "#0A1C5C",
+  "icons": [
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png"}
+  ]
+}
