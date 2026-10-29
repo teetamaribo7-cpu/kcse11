@@ -1,5 +1,5 @@
 /* KCSE Year 11 Revision — offline support. Change VERSION when you upload a new index.html. */
-var VERSION = "kcse11-v4.8e";
+var VERSION = "kcse11-v4.9c";
 var FILES = ["./", "./index.html", "./manifest.webmanifest", "./icon-180.png", "./icon-192.png", "./icon-512.png"];
 self.addEventListener("install", function (e) {
   e.waitUntil(caches.open(VERSION).then(function (c) { return c.addAll(FILES); }).then(function () { return self.skipWaiting(); }));
